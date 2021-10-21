@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: runner.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 2.214 s <<< FAILURE! - in runner.TestRunner
+Retail website Login test(Login to Retail Website)  Time elapsed: 1.907 s  <<< ERROR!
+io.cucumber.core.exception.CucumberException: 
+Step [^user enter userName '(.+)' and password '(.+)'$] is defined with 0 parameters at 'stepDefinitions.LoginStepDef.user_enter_userName__and_password()'.
+However, the gherkin step has 2 arguments:
+ * eagles@tekschool.us
+ * eagles
+Step text: user enter userName 'eagles@tekschool.us' and password 'eagles'
+
